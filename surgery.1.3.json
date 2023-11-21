@@ -1,0 +1,142 @@
+{
+    "startTime": "7:30",
+    "endTime": "16:30",
+    "config": {
+        "numberOfIteration": 10000,
+        "temperature": 720,
+        "alpha": 0.9995,
+        "phuTime": 9,
+        "pacuTime": 5,
+        "sizeLengthMap": {
+            "small": 36,
+            "medium": 76,
+            "large": 175,
+            "extraLarge": 197,
+            "special": 352
+        }
+    },
+    "availableResources": {
+        "numberOfNurses": 10,
+        "numberOfAnesthetists": 8,
+        "numberOfPhus": 3,
+        "numberOfPacus": 3,
+        "numberOfOperatingRooms": 4,
+        "surgeonSpecialities": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "3",
+            "3"
+        ]
+    },
+    "surgeryList": [
+        {
+            "speciality": 1,
+            "priority": 1,
+            "size": "S",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 1,
+            "priority": 1,
+            "size": "S",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 2,
+            "priority": 1,
+            "size": "S",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 2,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 2,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 1,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 2
+        },
+        {
+            "speciality": 1,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 3,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 2,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 2,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 2,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 2,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 1,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 1,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 2,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 2,
+            "priority": 1,
+            "size": "M",
+            "numberOfNurseRequired": 2,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 2,
+            "priority": 1,
+            "size": "L",
+            "numberOfNurseRequired": 2,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 3,
+            "priority": 1,
+            "size": "L",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        },
+        {
+            "speciality": 3,
+            "priority": 1,
+            "size": "XL",
+            "numberOfNurseRequired": 1,
+            "numberOfAnesthetistRequired": 1
+        }
+    ]
+}
